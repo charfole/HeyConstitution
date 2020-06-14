@@ -1,0 +1,67 @@
+<!--pages/help/help.wxml-->
+<view class='accordion'>
+ 
+    <view class='ac_item' data-index='1' catchtap='acTap'>
+    <view class='ac_icon left'><image src="/images/ac_icon.png"></image></view>
+      <view class='ac_text'>注意事项</view>
+      <view class='ac_icon'><image src="/images/ac_{{showIndex == 1 ? 'up':'down'}}.png"></image></view>
+    </view>
+    <view class='ac_detail' wx:if="{{showIndex == 1}}"><text>请确保光照条件正常。光线的强弱与色调，对颜色的影响极大。应以白天充足而柔和的自然光线为佳，如在夜间或暗处，用日光灯为好。\n\n不宜在饭后进行舌诊。饮食及药物可使舌象发生变化，过冷过热的饮食及刺激性食物可使舌色发生改变。过食肥甘之品及服大量镇静剂，可使舌苔厚腻。\n\n上传图片时尽量裁剪到舌头区域，否则可能会造成无法识别。</text></view>
+  
+     <view class='ac_item' data-index='2' catchtap='acTap'>
+      <view class='ac_icon left'><image src="/images/ac_icon.png"></image></view>
+      <view class='ac_text'>舌诊的来源</view>
+      <view class='ac_icon'><image src="/images/ac_{{showIndex == 2 ? 'up':'down'}}.png"></image></view>
+    </view>
+    <view class='ac_detail' wx:if="{{showIndex == 2}}"><text>舌诊是观察舌头的色泽、形态的变化来辅助诊断及鉴别的一个简单有效的方法。\n\n舌诊主要诊察舌质和舌苔的形态、色泽、润燥等，以此判断疾病的性质、病势的浅深、气血的盛衰、津液的盈亏及脏腑的虚实等。</text></view>
+     <view class='ac_item' data-index='3' catchtap='acTap'>
+      <view class='ac_icon left'><image src="/images/ac_icon.png"></image></view>
+      <view class='ac_text'>体质划分</view>
+      <view class='ac_icon'><image src="/images/ac_{{showIndex == 3 ? 'up':'down'}}.png"></image></view>
+    </view>
+    <view class='ac_detail' wx:if="{{showIndex == 3}}"><text>根据传统中医理论，人体大致可以分为九大体质:湿热质、气虚质、血瘀质、特禀质、痰湿质、阴虚质、阳虚质、平和质、气郁质。</text></view>
+     <view class='ac_item' data-index='4' catchtap='acTap'>
+      <view class='ac_icon left'><image src="/images/ac_icon.png"></image></view>
+      <view class='ac_text'>舌诊的准确性说明</view>
+      <view class='ac_icon'><image src="/images/ac_{{showIndex == 4 ? 'up':'down'}}.png"></image></view>
+    </view>
+    <view class='ac_detail' wx:if="{{showIndex == 4}}"><text>由于算法对光线、拍摄角度、图片大小等因素较为敏感，因此上述因素可能会对结果产生偏差!</text></view>
+       <view class='ac_item' data-index='5' catchtap='acTap'>
+      <view class='ac_icon left'><image src="/images/eye.png"></image></view>
+      <view class='ac_text'>查看拍照上传样例</view>
+      <view class='ac_icon eye'><image src="/images/ac_{{showIndex == 5 ? 'up':'down'}}.png"></image></view>
+    </view>
+    <view class='' wx:if="{{showIndex == 5}}">   <view class="exp">
+<view class="text">
+<text>
+拍照上传样例：
+</text>
+<view class="text_">
+<text>
+(图片来自网络，如有侵权请联系删除)
+</text>
+</view>
+</view>
+<view class="image">
+<image src="/images/help.png"></image>
+</view>
+</view></view>
+
+         <view class='ac_item' data-index='6' catchtap='acTap'>
+      <view class='ac_icon left'><image src="/images/info.png"></image></view>
+      <view class='ac_text'>关于我们</view>
+      <view class='ac_icon'><image src="/images/ac_{{showIndex == 6? 'up':'down'}}.png"></image></view>
+    </view>
+    <view class='ac_detail' wx:if="{{showIndex == 6}}"><text>本小程序是由草木多闻团队设计呈现的，团队致力于高效的诊断方案和药膳汤品推荐。</text></view>
+
+ 
+ 
+  </view>
+
+
+<!-- <block wx:for="{{help}}">
+<view class="Q"><text>{{item.Q}}</text></view>
+<view class="A"><text>{{item.A}}</text></view>
+</block>
+ -->
+

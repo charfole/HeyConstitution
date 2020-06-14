@@ -1,0 +1,46 @@
+<view class="container">
+  <view class="header">
+    <view class="header-Information">
+      <text class="Information">将手机摄像头对准舌头拍照</text>
+    </view>
+    <view class="header-tips">
+      <text class="tips">tips:请确保您已阅读说明帮助</text>
+    </view>
+  </view>
+  <view class="scan">
+    <view class="scan-icon" hover-class="shake" wx:for="{{scanitem}}">
+    <image src="/images/scan.png"></image>
+    </view>
+  </view>
+  <view class="camera">
+    <view class="camera-image" hover-class="scale-up">
+    <image src="/images/camera.png"></image>
+    </view>
+    <view class="camera-btn" hover-class="camera-btn-click" bindtap="clickToTake">
+    <view class="camera-icon"><image src="/images/cameraIcon.png" style="width:40rpx;height:30rpx"></image><text  style="font-size:32rpx;letter-spacing:2rpx">点我开始</text></view>
+</view>
+
+  </view>
+  <view class="footer">
+    
+    <!--
+       <view class="footer-item"> <button class="share" open-type="feedback" hover-class="camera-btn-click" style="width: 160rpx;" ><i-icon type="brush" size="26" color="#00000099" class="footer-icon" /><text class="footer-text">|问题反馈|</text></button>
+    </view>-->
+       <view class="footer-item"> 
+     <button bindtap="clickDrinks" class="share"  hover-class="camera-btn-click" style="width: 160rpx;">
+          <image src="/images/food.png"></image>
+     <text class="footer-text">|汤品推荐|</text></button>
+    </view>    
+    <view class="footer-item"> 
+  <button bindtap="clickHelp" class="share"  hover-class="camera-btn-click" style="width: 160rpx;">
+       <image src="/images/round.png"></image>
+       <text class="footer-text">|说明帮助|</text></button>
+    </view>
+    <view class="footer-item">
+    <!-- <button class="share" bindtap="clickLogs" hover-class="camera-btn-click" style="width: 160rpx;" > <i-icon type="task" size="26" color="#00000099" class="footer-icon" /><text class="footer-text">|体质记录|</text></button> -->
+     <button class="share" bindtap="clickLogs" hover-class="camera-btn-click" style="width: 160rpx;" > 
+     <image src="/images/file.png"></image>
+     <text class="footer-text">|体质记录|</text></button>
+    </view>
+  </view>
+</view>

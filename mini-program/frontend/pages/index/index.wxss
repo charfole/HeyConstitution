@@ -1,0 +1,189 @@
+/*header样式*/
+.header{
+  height: 180rpx;
+  margin-top:100rpx;
+}
+
+.header-tips,.header-Information{
+margin-left:16%;
+}
+.header-Information
+{
+margin-top:10rpx;
+}
+.Information,.tips{
+color:rgba(0, 0, 0, 0.8);
+font-size: 24rpx;
+}
+.Information{
+  font-size: 28rpx;
+  font-weight: bold;
+}
+/*scan样式*/
+
+.scan{
+  height: 115rpx;
+  display: flex;
+  width: 80%;
+  margin: auto;
+}
+.scan-icon{
+  justify-content: space-between;
+  width: 120rpx;
+  margin: 0 auto;
+}
+.scan-icon image{
+  width: 100%;
+  height: 100%
+}
+
+
+@keyframes shake {
+
+    0%,
+    100% {
+        transform: translateX(0)
+    }
+
+    10% {
+        transform: translateX(-9px)
+    }
+
+    20% {
+        transform: translateX(8px)
+    }
+
+    30% {
+        transform: translateX(-7px)
+    }
+
+    40% {
+        transform: translateX(6px)
+    }
+
+    50% {
+        transform: translateX(-5px)
+    }
+
+    60% {
+        transform: translateX(4px)
+    }
+
+    70% {
+        transform: translateX(-3px)
+    }
+
+    80% {
+        transform: translateX(2px)
+    }
+
+    90% {
+        transform: translateX(-1px)
+    }
+}
+.shake{
+  animation: shake 1s;
+}
+/*camera*/
+.camera{
+  margin-top: 90rpx;
+  height: 500rpx;
+}
+.camera-image{
+  margin: auto;
+  margin-top: 5rpx;
+  width: 40%;
+  height: 300rpx;
+}
+.camera-image image{
+  height: 100%;
+  width: 100%;
+}
+.camera-btn{
+  margin: auto;
+  width: 50%;
+  height:70rpx;
+  margin-top: 90rpx;
+  border: solid;
+  border-color: #3DB29E;
+  border-radius: 10px;
+  background-color: #3DB29E;
+
+  display: flex;
+   align-items: center;
+  justify-content: center
+
+}
+.camera-btn-click
+{
+ transform:scale(0.92);
+  opacity: 0.5
+}
+
+.camera-icon{
+    position: relative;
+   display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center; 
+  width: 100%;
+}
+.camera-icon image{
+  position: absolute;
+  left:50rpx;
+}
+.camera-icon text {
+color: #fff;
+font-weight: bold;
+}
+@keyframes scale-up {
+    0% {
+        opacity: 0.2;
+        transform: scale(.2)
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1)
+    }
+}
+.scale-up{
+  animation: scale-up 1s;
+}
+
+/*footer样式*/
+.footer{
+  height: 100rpx;
+  display: flex;
+   width: 95%;
+  margin: auto;
+  margin-top: 120rpx;
+}
+.footer-item{
+justify-content: space-between;
+font-size: 28rpx;
+font-weight: bold;
+height: 100%;
+width: 160rpx;
+margin: auto;
+text-align: center;
+}
+.share{
+  border: 0;
+  margin: 0;
+  padding: 0;
+background-color: #fff;
+font-size: 28rpx;
+font-weight: bold;
+display: inline-block;
+}
+
+.footer-text{
+  color: rgba(0, 0, 0, 0.8);
+}
+.footer-item image{
+  width: 48rpx;
+  height: 48rpx;
+  margin: auto;
+  display: block;
+}

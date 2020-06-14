@@ -1,0 +1,16 @@
+<!--pages/optional/optional.wxml-->
+<view class='lable_header'>
+  <view class="lable_info">
+    <view class="title">主要症状 </view> 
+    <view class="tip">(请在舌诊前选择您的主要症状，如没有可不选） </view> 
+  </view>
+  </view>
+<view class="lable_list">
+<view class="lable {{item.checked?'lable_selected':''}}" wx:for="{{list}}"   data-name="{{item.name}}" data-index="{{index}}" data-checked="{{item.checked}}" bindtap="lable_click">{{item.name}}</view>
+</view>
+
+
+
+<view class="lable_button">
+<view class="lable_submit" bindtap="submit"><image src="/images/next.png"></image></view>
+</view>

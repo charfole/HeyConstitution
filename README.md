@@ -24,6 +24,32 @@
 
     基于BERT和XLNET的预处理模型，用于处理文本中存在的多标签风险。
 
+## 小程序截图
+
+### 1. 主页
+
+![主页](https://github.com/charfole/HeyConstitution/blob/master/img/%E4%B8%BB%E9%A1%B5.png)
+
+### 2. 症状匹配
+
+![症状匹配](https://github.com/charfole/HeyConstitution/blob/master/img/%E7%97%87%E7%8A%B6%E5%8C%B9%E9%85%8D.png)
+
+### 3. 图片裁剪
+
+![图片裁剪](https://github.com/charfole/HeyConstitution/blob/master/img/%E5%9B%BE%E7%89%87%E8%A3%81%E5%89%AA.png)
+
+### 4. 体质分析
+
+![体质分析](https://github.com/charfole/HeyConstitution/blob/master/img/%E4%BD%93%E8%B4%A8%E5%88%86%E6%9E%90.jpg)
+
+### 5. 药膳推荐
+
+![药膳推荐](https://github.com/charfole/HeyConstitution/blob/master/img/%E8%8D%AF%E8%86%B3%E6%8E%A8%E8%8D%90.png)
+
+### 6. 体质记录
+
+![体质记录](https://github.com/charfole/HeyConstitution/blob/master/img/%E4%BD%93%E8%B4%A8%E8%AE%B0%E5%BD%95.png)
+
 ## License
 
 [MIT License](https://github.com/charfole/HeyConstitution/blob/master/LICENSE).

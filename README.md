@@ -40,7 +40,7 @@
 
 ### 4. 体质分析
 
-![体质分析](https://github.com/charfole/HeyConstitution/blob/master/img/%E4%BD%93%E8%B4%A8%E5%88%86%E6%9E%90.jpg)
+![体质分析](https://github.com/charfole/HeyConstitution/blob/master/img/%E4%BD%93%E8%B4%A8%E5%88%86%E6%9E%90.png)
 
 ### 5. 药膳推荐
 
@@ -49,6 +49,10 @@
 ### 6. 体质记录
 
 ![体质记录](https://github.com/charfole/HeyConstitution/blob/master/img/%E4%BD%93%E8%B4%A8%E8%AE%B0%E5%BD%95.png)
+
+### 7. NLP体质分析（正在研究）
+
+![NLP体质分析（正在研究）](https://github.com/charfole/HeyConstitution/blob/master/img/NLP.png)
 
 ## License
 

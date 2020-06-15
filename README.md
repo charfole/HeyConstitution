@@ -1,2 +1,29 @@
-# HeyConstitution
-A constitution analysis and health drink recommendation mini-program based on tongue diagnosis and symptom analysis.
+# :star: 基于信息融合的体质分析研究
+
+本项目基于信息融合的思想，打造了一款症状匹配与智能舌诊的体质分析小程序，并将在未来加入养生饮品推荐和基于自然语言处理的体质分析功能。
+
+##  项目结构
+项目的开发主要分为以下五个模块
+
+- 数据获取与预处理模块
+
+    主要用到的技术是网络爬虫，使用Python对网上的舌象图片爬取并下载到本地，之后删除掉一些冗余的图片，建立起初步的数据集并做好每张图片的数据标注。
+- 算法开发模块
+
+    利用OpenCV进行图片分割降噪，并且利用imgaug进行数据增广扩充数据集。舌象分类采用PyTorch框架进行开发，选择ResNet构建模型。
+
+- 后端部署模块
+
+    使用Nginx+Flask+阿里云服务器部署，将舌象分类模型与症状匹配模块信息融合后综合部署。
+
+- 微信小程序模块
+
+    依托WXML、WXSS、JavaScript和众多开源的微信小程序组件，构建并提供一个界面精美，交互友好的小程序给用户。
+
+- NLP体质分析模块（正在研究）
+
+    基于BERT和XLNET的预处理模型，用于处理文本中存在的多标签风险。
+
+## License
+
+[MIT License](https://github.com/charfole/HeyConstitution/blob/master/LICENSE).

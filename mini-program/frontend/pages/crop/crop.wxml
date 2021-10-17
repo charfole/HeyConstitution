@@ -1,0 +1,6 @@
+<!--pages/crop/crop.wxml-->
+<image-cropper id="image-cropper" limit_move="{{true}}" disable_rotate="{{true}}" width="{{width}}" height="{{height}}" imgSrc="{{src}}" bindimageload="loadimage"></image-cropper>
+<view class="hint">请选择舌头区域</view>
+<view class="btn">
+<button bindtap="submit" hover-class=".btn-click" class="btn-submit">确定</button>
+</view>

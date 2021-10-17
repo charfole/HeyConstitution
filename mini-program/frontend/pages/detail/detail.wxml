@@ -1,0 +1,28 @@
+
+<!--pages/result/result.wxml-->
+
+<!-- <form bindsubmit="formSubmit" bindreset="formReset">
+  <view class="section">
+    <view class="section__title">input</view>
+    <input name="input" placeholder="please input here" bindconfirm="" />
+  </view>
+   <view class="btn-area">
+    <button formType="submit">Submit</button>
+    <button formType="reset">Reset</bhttp://120.76.128.109:9000/uploadhttp://120.76.128.109:9000/uploadhttp://120.76.128.109jhkhj
+</form> -->
+
+<view class="container">
+  <view class="body-container">
+    <view class="upload_img">用户上传的照片:</view>
+  <view class="bodyimage"><image src="{{image}}"></image></view>
+  </view>
+  <view class="resultImage"><image src="{{resultUrl}}"></image></view>
+  <!-- <view class="clickDrink" hover-class="click" catchtap="clickDrinks"><image src="/images/like.png"></image><text>药膳汤推荐</text></view>
+  <view class="resultImage"><image src="{{resultUrl}}"></image></view>
+  <view class="bg" bindtap='hideview' style='display:{{display}}'>
+  <view class="bg_image"><image src="/images/bg_image.png"></image></view>
+  </view> -->
+
+
+  
+</view>

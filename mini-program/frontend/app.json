@@ -1,0 +1,46 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/result/result",
+    "pages/drinks/drinks",
+    "pages/optional/optional",
+    "pages/crop/crop",
+    "pages/logs/logs",
+    "pages/help/help",
+    "pages/detail/detail"
+  ],
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "white",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/icon_component_3.png",
+        "selectedIconPath": "images/icon_component_3.png",
+        "text": "舌诊"
+      },
+      {
+        "pagePath": "pages/help/help",
+        "iconPath": "images/icon_component_1.png",
+        "selectedIconPath": "images/icon_component_1.png",
+        "text": "说明"
+      },
+      {
+        "pagePath": "pages/result/result",
+        "iconPath": "images/icon_component_4.png",
+        "selectedIconPath": "images/icon_component_4.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#729b89",
+    "navigationBarTitleText": "智能舌诊",
+    "navigationBarTextStyle": "white"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

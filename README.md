@@ -25,7 +25,7 @@
 
 ### 1. 首页
 
-<img src="https://github.com/charfole/HeyConstitution/blob/master/images/首页.jpg" width="50%" height="50%">
+<div align=center><img src="https://github.com/charfole/HeyConstitution/blob/master/images/首页.jpg" width="50%" height="50%"></div>
 <!-- ![首页](https://github.com/charfole/HeyConstitution/blob/master/images/首页.jpg) -->
 
 ### 2. 使用说明

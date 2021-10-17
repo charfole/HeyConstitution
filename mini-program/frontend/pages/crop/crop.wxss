@@ -1,0 +1,28 @@
+/* pages/crop/crop.wxss */
+.hint{
+  z-index: 10;
+width: 100%;
+  color: #fff;
+  position: absolute;
+  top: 200rpx;
+  text-align: center;
+}
+.btn{
+ position: absolute;
+  width:100%;
+  bottom:200rpx;
+  display: flex;
+  flex-flow:wrap;
+  z-index: 10;
+  justify-content:space-around;
+}
+.btn-submit{
+background-color:#3DB29E;
+color: white;
+border-radius: 10px;
+ 
+}
+.btn-click{
+  opacity: 0.5;
+  transform:scale(0.92);
+}

@@ -1,0 +1,14 @@
+<block wx:for="{{log}}">
+<view class="cu-timeline">
+  <view class="cu-time">{{item.year_month_day}}</view>
+  <view class="cu-item text-cyan">  
+    <view class=" content">
+      <text>{{item.time}}</text> 诊断为{{item.body}}
+    </view>
+  </view> 
+</view>
+</block>
+
+<view class="clear">
+<view wx:if="{{hasLog}}" class="clear_btn" catchtap="clearStorage" >清空所有记录</view>
+</view>

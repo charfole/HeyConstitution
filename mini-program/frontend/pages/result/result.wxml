@@ -1,0 +1,70 @@
+<!--pages/result/result.wxml-->
+
+<!-- <form bindsubmit="formSubmit" bindreset="formReset">
+  <view class="section">
+    <view class="section__title">input</view>
+    <input name="input" placeholder="please input here" bindconfirm="" />
+  </view>
+   <view class="btn-area">
+    <button formType="submit">Submit</button>
+    <button formType="reset">Reset</bhttp://120.76.128.109:9000/uploadhttp://120.76.128.109:9000/uploadhttp://120.76.128.109jhkhj
+</form> -->
+<!-- 
+<view class="container"> -->
+  <!-- <view class="body-container">
+  <view class="bodyimage"><image src="{{image}}"></image></view>
+  </view> -->
+  <!-- <view class="clickDrink" hover-class="click" catchtap="clickDrinks"><image src="/images/like.png"></image><text>药膳汤推荐</text></view>
+  <view class="resultImage"><image src="{{resultUrl}}"></image></view>
+  <view class="bg" bindtap='hideview' style='display:{{display}}'>
+  <view class="bg_image"><image src="/images/bg_image.png"></image></view>
+  </view>
+
+
+  
+</view> -->
+
+
+<view class='header'>
+<view class='header_textCN'>诊断结果</view>
+<view class='header_textEN'>DIAGNOSTIC ANALYSIS</view>
+</view>
+
+<view class="card_container" bindtap="getUserProfile">
+<view class='card'>
+  <block wx:if="{{canIUseOpenData}}" calss="userinfo-opendata">
+    <view class='avatar'>
+      <view class='userinfo-avatar'>
+        <open-data type="userAvatarUrl"></open-data></view>
+      </view>
+      <view class='nick'>
+      <open-data type="userNickName"></open-data>
+    </view>
+    </block>
+    <block wx:elif="{{!hasUserInfo}}">
+  <view class='hasNotUserInfo'  wx:if="{{canIUseGetUserProfile}}" bindtap="getUserProfile"> 点击获取用户信息</view>
+      <!-- <button wx:if="{{canIUseGetUserProfile}}" bindtap="getUserProfile"> 获取用户信息 </button> -->
+    </block>
+    <block wx:else>
+  <view class='avatar'>  <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image></view>
+  <view class='nick'>{{userInfo.nickName}}</view>
+</block>
+  <view class='body'>阳虚质</view>
+  <view class='body_info'>{{bodyIntroduce}}</view>
+  <view class='time'>2020/10/03</view>
+</view>
+</view>
+
+<view class="more">更多分析结果</view>
+
+<view class='button_group'>
+<view class="button_line">
+  <view class='button'catchtap='clickDetail' hover-class="click"><image src='/images/sym.png'></image></view>
+  <view class='button' catchtap='clickDrinks' hover-class="click"><image src='/images/diet.png'></image></view>
+
+</view>
+<!-- <view class="button_line">
+<view class='button' hover-class="click"><image src='/images/risk.png'></image></view>
+<view class='button' hover-class="click"><image src='/images/diet.png'></image></view>
+</view> -->
+</view>

@@ -25,37 +25,37 @@
 
 ### 1. 首页
 
-<div align=center><img src="https://github.com/charfole/HeyConstitution/blob/master/images/首页.jpg" width="30%" height="30%"></div>
+<div align=center><img src="https://github.com/charfole/HeyConstitution/blob/master/images/首页.jpg" width="40%" height="40%"></div>
 <!-- ![首页](https://github.com/charfole/HeyConstitution/blob/master/images/首页.jpg) -->
 
 ### 2. 使用说明
 
-<div align=center><img src="https://github.com/charfole/HeyConstitution/blob/master/images/使用说明.png" width="30%" height="30%"></div>
+<div align=center><img src="https://github.com/charfole/HeyConstitution/blob/master/images/使用说明.png" width="50%" height="50%"></div>
 <!-- ![使用说明](https://github.com/charfole/HeyConstitution/blob/master/images/使用说明.png) -->
 
 ### 3. 症状匹配
 
-<div align=center><img src="https://github.com/charfole/HeyConstitution/blob/master/images/症状匹配.png" width="30%" height="30%"></div>
+<div align=center><img src="https://github.com/charfole/HeyConstitution/blob/master/images/症状匹配.png" width="50%" height="50%"></div>
 <!-- ![症状匹配](https://github.com/charfole/HeyConstitution/blob/master/images/症状匹配.png) -->
 
 ### 4. 体质分析
 
-<div align=center><img src="https://github.com/charfole/HeyConstitution/blob/master/images/体质分析.png" width="30%" height="30%"></div>
+<div align=center><img src="https://github.com/charfole/HeyConstitution/blob/master/images/体质分析.png" width="50%" height="50%"></div>
 <!-- ![体质分析](https://github.com/charfole/HeyConstitution/blob/master/images/体质分析.png) -->
 
 ### 5. 个人信息
 
-<div align=center><img src="https://github.com/charfole/HeyConstitution/blob/master/images/个人信息.png" width="30%" height="30%"></div>
+<div align=center><img src="https://github.com/charfole/HeyConstitution/blob/master/images/个人信息.png" width="50%" height="50%"></div>
 <!-- ![个人信息](https://github.com/charfole/HeyConstitution/blob/master/images/个人信息.png) -->
 
 ### 6. 膳食推荐
 
-<div align=center><img src="https://github.com/charfole/HeyConstitution/blob/master/images/膳食推荐.png" width="30%" height="30%"></div>
+<div align=center><img src="https://github.com/charfole/HeyConstitution/blob/master/images/膳食推荐.png" width="50%" height="50%"></div>
 <!-- ![膳食推荐](https://github.com/charfole/HeyConstitution/blob/master/images/膳食推荐.png) -->
 
 ### 7. 体质记录
 
-<div align=center><img src="https://github.com/charfole/HeyConstitution/blob/master/images/体质记录.png" width="30%" height="30%"></div>
+<div align=center><img src="https://github.com/charfole/HeyConstitution/blob/master/images/体质记录.png" width="50%" height="50%"></div>
 <!-- ![体质记录](https://github.com/charfole/HeyConstitution/blob/master/images/体质记录.png) -->
 
 ## License
